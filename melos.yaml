@@ -1,0 +1,7 @@
+name: MelosFvm
+
+packages:
+  - packages/**
+
+scripts:
+  pub:get: melos exec -- exec fvm flutter pub get
